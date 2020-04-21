@@ -1,0 +1,37 @@
+html {
+    font-family: sans-serif;
+    font-size: 10;
+}
+#my-face{width:150px;}
+#index {
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 50px 300px auto;
+    grid-template-areas: 
+        "navbar navbar"
+        "title title"
+        "articles about"
+}
+.blog-post {
+    grid-area: articles;
+    background-color: beige;
+}
+
+.title-section {
+    grid-area: title;
+    background-color: aquamarine;
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: cadetblue;
+}
+
+.about-me {
+    grid-area: about;
+    background-color: lightpink
+}
+
+#testnavbar {
+    color: deeppink
+}
