@@ -2,6 +2,10 @@ html {
     font-family: 'open sans', sans-serif
 }
 
+p {
+    font-size:18px;
+}
+
 #index {
 }
 
@@ -39,8 +43,9 @@ title {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  margin-bottom: 6rem;
+  margin-bottom: 100px;
  height: 30em;
+    
     
 }
 
@@ -59,8 +64,11 @@ title {
 }
 
 #melbourne {
-    width:60vw;
-    height:auto;
+    display:block;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .main-article {
