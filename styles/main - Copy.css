@@ -1,0 +1,115 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15pt;
+    margin:0px;
+    outline:0px;
+}
+
+h1 { 
+    font-family: sans-serif;
+    font-size: 70px;
+    color: black;
+}
+
+#my-face{width:150px;}
+
+#index {
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 100px 95vh auto;
+    grid-template-areas: 
+        "navbar navbar"
+        "title title"
+        "articles about"
+}
+
+.blog-post {
+    grid-area: articles;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+}
+
+.title-section {
+    grid-area: title;
+    border-bottom: 3px solid;
+    background-color: white;
+    background-image: linear-gradient(white, white)
+}
+#title-section-content {
+    padding-top: 35vh;
+    padding-left: 15vh;
+    outline: 0px;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    display:inline-flex;
+    flex-direction: row;
+}
+
+#down-arrow {
+    display:inline-flex;
+        flex-direction:row;
+}
+#down-arrow-image {
+    height:6em;
+    width:7em;
+}
+.navbar {
+    grid-area: navbar;
+}
+
+#nav-list {
+    float:left;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navlink {
+    display:block;
+      padding: 8px;
+  background-color: #dddddd;
+}
+
+.about-me {
+    grid-area: about;
+    padding: 10px;
+    height: 95vh;
+    align-items: center;
+}
+
+#my-face {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vw;
+    margin-top: 10px
+}
+.nav-button {
+    height:25px;
+    width:auto;
+}
+
+.nav-text {
+    font-size: 10px;
+}
+
+#self-exploration {
+    display:grid;
+    grid-template-rows: 50px 300px auto;
+    grid-template-areas: 
+        "navbar"
+        "title"
+        "articles"
+}
+#melbourne {
+    width: 30vw;
+    align-self: center;
+}
+#self-description {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
