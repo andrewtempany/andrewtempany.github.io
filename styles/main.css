@@ -1,12 +1,18 @@
 html {
     font-family: sans-serif;
-    font-size: 10;
+    font-size: 15pt;
 }
+
+h1 { 
+    font-family: sans-serif;
+    font-size: 100px;
+    color: darkgrey}
+
 #my-face{width:150px;}
 #index {
     display:grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 50px 300px auto;
+    grid-template-rows: 50px 95vh auto;
     grid-template-areas: 
         "navbar navbar"
         "title title"
@@ -15,11 +21,14 @@ html {
 .blog-post {
     grid-area: articles;
     background-color: beige;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .title-section {
     grid-area: title;
     background-color: aquamarine;
+    text-align: center;
 }
 
 .navbar {
@@ -30,8 +39,27 @@ html {
 .about-me {
     grid-area: about;
     background-color: lightpink
+    padding: 10px;
 }
 
 #testnavbar {
     color: deeppink
+}
+
+#self-exploration {
+    display:grid;
+    grid-template-rows: 50px 300px auto;
+    grid-template-areas: 
+        "navbar"
+        "title"
+        "articles"
+}
+#melbourne {
+    width: 30vw;
+    align-self: center;
+}
+#self-description {
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
