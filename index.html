@@ -1,37 +1,61 @@
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <link href="styles/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <title id="index-title">My blog</title>
     </head>
     
     
-    <body id="index">
+    <body id="undex">
         <nav class="navbar"
              id="navbar">
-      <p id="testnavbar">this is the navbar</p>
-        </nav>
+            <ul id="nav-list">
+                <li class="navlink"><a href="#title-section"><img src="images/home.png" class="nav-button"> <p class="nav-text">Home</p></a></li>
+                <li class="navlink"> <a href="#blog-articles"><img src="images/noun_article_2109023.png" class="nav-button"><p class="nav-text">posts</p></a></li>
+        
+        </ul>        
+                </nav>
       <section id="title-section"
                class="title-section">
-        <H1>Andy's DevBlog</H1>
+          <div id="title-section-content">
+              <H1 class="title">Andrew Tempany<br>DevBlog_</H1>
+              <a href="#blog-articles"  id="down-arrow"> 
+                  <br> 
+                  <img src="images/noun_down_688140.png" id="down-arrow-image">
+              </a>
+          </div>
+          
       </section>
         
         
         
       <section id="about-me"
                class="about-me">
+          <div>
           <img src="images/DSC09388.jpg" id="my-face">
-          <p id="self-description"> Hey! I am Andy. An aussie who is pumped to be a part of the Enspiral Dev Academy. I love swimming, music and keeping myself up to date with tech, be it phones, computers or video games.</p>
+          </div>
+          <div id="self-description">  
+              <p>Hey! I am Andy. An aussie who is pumped to be a part of the Enspiral Dev Academy. I love swimming, music and keeping myself up to date with tech, be it phones, computers or video games.</p>
+        </div>
       </section>
         
         
         
       <section id="blog-articles"
                class="blog-post">
-         <div>
-            <h2>About Me.</h2> 
+         <div class="blog-post">
+            <h2>Self-exploration.</h2> 
             <p> I grew up in the eastern suburbs of Melbourne, to a middle-class white family. I lived near a train station, a Chinese restaurant, and the MCG (Melbourne’s largest sporting complex). I was the middle of five brothers. My mother was an art teacher, and my father an architect...</p>
             <a href="self-exploration.html"> Read More </a>
          </div>
+          
+          <div class="blog-post">
+            <h2>Self-exploration.</h2> 
+            <p> I grew up in the eastern suburbs of Melbourne, to a middle-class white family. I lived near a train station, a Chinese restaurant, and the MCG (Melbourne’s largest sporting complex). I was the middle of five brothers. My mother was an art teacher, and my father an architect...</p>
+            <a href="self-exploration.html"> Read More </a>
+         </div>
+          
       </section>  
     </body>
 </html>
