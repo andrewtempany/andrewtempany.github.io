@@ -20,7 +20,8 @@ a {
 }
 
 #nav-list {
-    float:right;
+    position:fixed;
+    right: 5px;
     list-style-type: none;
     
 }
