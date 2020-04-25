@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <link href="styles/main.css" rel="stylesheet">
+        <title>Relative, Absolute and Fixed</title>
+        
+    </head>
+    
+    <body id="self-exploration">
+        <nav class="navbar"
+             id="navbar">
+            <ul id="nav-list">
+                <li class="navlink"><a href="index.html"><img src="images/home.png" class="nav-button"> </a></li>
+                <li class="navlink"> <a href="index.html#blog-articles"><img src="images/noun_article_2109023.png" class="nav-button"></a></li>
+        
+        </ul>        
+                </nav>
+      <section id="title-section"
+               class="title-section">
+        <div id="title-section-content">
+              <H1 class="title">Andrew Tempany<br>DevBlog_</H1> 
+              <br> 
+              <br>
+              <br>
+          </div>
+      </section>
+        
+        
+        
+      <section 
+               class="main-article">
+         <article>
+            <h2>Relative, Absolute and Fixed.</h2> 
+            <!--<img src="" class="positions-image"> -->
+            
+             <h3><b>Static</b></h3>
+          <p class="main-text">   To begin, all elements default to the static position.<br>
+<b>Static</b> means things are positioned in their normal order on the webpage to the left of the screen.</p> 
+
+<h3><b>Relative</b></h3>
+
+<p>Relative is a more malleable alternative to static. <br>
+Relative elements begin in their static position, the difference, however, is that they can be adjusted using helper properties.<br><br>
+
+i.e. left: 200px;<br>
+     top: 100px<br>
+This would move the element 200px from the left/to the right
+and 100px from the top/downwards.<br><br>
+
+
+Here is a example of a blue square that is in the relative position with no helper properties. <br>
+                <img src="images/relativeunmoved.jpg" class="positions-image">
+                Now we add the helper properties.</p>
+<img src="images/relativemoved.jpg" class="positions-image">
+
+             <h3><b>Absolute</b></h3>
+<p>Absolute is similar to relative. the key difference is that instead of being relative to its static position, it is relative to its parent element. If left unchanged it will sit in the top-left of its parent element. <br><br>
+
+Here is a example of a red square that is in the absolute position with no helper properties. <br>
+    <img src="images/absoluteunmoved.jpg" class="positions-image">
+                Now we add a helper property to shift it to the right.<br></p>
+             <img src="images/absolutemoved.jpg" class="positions-image">
+<h3><b>Fixed</b></h3>
+<p>Fixed elements are relative to the html document, not any other parent elements. the key thing to note with position: fixed; is that scrolling doesn't affect the position of the element in the viewport. The element will always stay on the screen. <br><br>
+    
+    An example of a fixed element is the menu in the top right corner of this page. I realised that you can clearly see this on your screen AFTER I went to the effort of making this gif. Good one Andy...
+    <br><br>
+<img src="images/fixed-menu.gif" class="positions-image">
+
+            </p>
+         </article>
+      </section>  
+    </body>
+</html>

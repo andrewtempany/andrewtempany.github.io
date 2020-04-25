@@ -56,14 +56,14 @@ title {
     
 }
 
-#melbourne-tile {
+.melbourne-tile {
   display: block;
   margin-left: auto;
   margin-right: 10%;
   width: 90%;
 }
 
-#melbourne-tile-description {
+.melbourne-tile-description {
     display:block;
     margin-left: auto;
     margin-right: 10%;
@@ -85,4 +85,10 @@ title {
 
 .main-text {
  
+}
+
+.positions-image {
+    width: 1000px;
+    height:auto;
+    
 }
