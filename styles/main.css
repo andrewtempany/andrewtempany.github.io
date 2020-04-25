@@ -62,7 +62,7 @@ title {
   margin-right: 10%;
   width: 90%;
  height:auto;
-    
+    max-height: 400px;
 }
 
 .melbourne-tile-description {
