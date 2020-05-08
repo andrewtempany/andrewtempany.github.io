@@ -4,6 +4,7 @@ html {
 
 p {
     font-size:18px;
+    font-family: 'open sans', sans-serif;
 }
 
 a {
@@ -32,10 +33,29 @@ a {
     padding: 15px;
 }
 
-title {
+h1 {
     font-family: 'montserrat', sans-serif;
     font size: 36;
 }
+
+h2 {
+    font-family: 'montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'montserrat', sans-serif;
+}
+
+h4 {
+    font-family: 'montserrat', sans-serif;
+    font-weight:100;
+    color: darkgray;
+    line-height: 1.1;
+}
+
+
+
+
 
 #my-face {
     width:70vw;
@@ -93,4 +113,18 @@ title {
     width: 1000px;
     height:auto;
     
+}
+
+.code{
+    padding: 15px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+#error {
+    color:crimson;
+}
+
+.ratings {
+    line-height: 1.2;
 }

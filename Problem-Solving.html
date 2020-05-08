@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <link href="styles/main.css" rel="stylesheet">
+        <title> Problem Solving</title>
+        
+    </head>
+    
+    <body id="self-exploration">
+        <nav class="navbar"
+             id="navbar">
+            <ul id="nav-list">
+                <li class="navlink"><a href="index.html"><img src="images/home.png" class="nav-button"> </a></li>
+                <li class="navlink"> <a href="index.html#blog-articles"><img src="images/noun_article_2109023.png" class="nav-button"></a></li>
+        
+        </ul>        
+                </nav>
+      <section id="title-section"
+               class="title-section">
+        <div id="title-section-content">
+              <H1 class="title">Andrew Tempany<br>DevBlog_</H1> 
+              <br> 
+              <br>
+              <br>
+          </div>
+      </section>
+        
+        
+        
+      <section 
+               class="main-article">
+         <article>
+            <h2>Problem Solving.</h2> 
+            <img src="images/Problem-solving.jpg" class="melbourne">
+
+            <h3> What was one time you got blocked on a simple problem?</h3>
+            <p>
+                During the "Manipulating JS Objects" section of the Kata, I couldn't seem to figure out how on earth I was supposed to make Carson (an object) one of Terah's (another object) children (an object key) . I was trying to put an object inside an object which was inside another object.  <br> <br>
+                
+                First of all I tried... something, anything and wanted to see if I could get it to work. So, I wrote:
+            </p>
+             
+                <div class = code> <code>terah.children.child1 = carson</code></div> <br>
+             
+            <p>
+                I did this because I wanted to list Carson as one of the Children of Terah and so I figured I'd just have the key "child1" as Carson's value (thats my mistake but I didn't know it yet). <br> <br>
+                
+                I tried googling it for a while and found various questions and guides on similar topics but different enough to leave me confused as to how I would take the same approach. I sat there googling and staring for about 30-40 minutes. <br><br>
+                
+                I tried reading the error message which went: <br><br>
+            </p>
+            <div class = "code">
+                <code>
+                    8. false: carson should be defined as an object and assigned as a child of Terah<br>
+                </code>
+                <code id = "error">
+                    Error: carson should be defined as an object and assigned as a child of Terah<br>
+                    at assert (/home/runner/Manipulating-JS-Objects/index.js:49:11)<br>
+                    at /home/runner/Manipulating-JS-Objects/index.js:97:1<br>
+                    at Script.runInContext (vm.js:131:20)<br>
+                    at Object.&lt;anonymous&gt; (/run_dir/interp.js:156:20)<br>
+                    at Module._compile (internal/modules/cjs/loader.js:1133:30)<br>
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)<br>
+                    at Module.load (internal/modules/cjs/loader.js:977:32)<br>
+                    at Function.Module._load (internal/modules/cjs/loader.js:877:14)<br>
+                    at Function.executeUserEntryPoint [as runMain](internal/modules/run_main.js:74:12)<br>
+                </code>
+            </div><br>
+            <p>
+                While I understood its issue listed, (Carson should be defined as an object) I was baffled because earlier I had Carson defined as an object.<br><br>
+                    
+                Eventually, I got tired. Frustrated, I decided to finish for the day and come back to it tomorrow. Which is when things went better for me, I woke up, meditated and had an epiphany as to what I was doing wrong, that I needed to place Carson as the key and that I was adding an extra value where it wasn't needed.<br><br>
+               
+                This felt strange as an experience, I had made an assumption that I was still too new to this to realise my own mistakes. That sounds like a silly presumption but it was how I felt. I guess coming through this I had to challenge my own assumptions as to how capable I am with any new skills I develop here. If I learn something, own it and be proud of it. Hell yeah, at this stage, I can write html, css and some Javascript and I'm only gonna get better at it. 
+            </p>
+               
+            
+            <h3>How confident do you feel using the problem solving techniques and process:</h3>
+                
+            <div class = "ratings">
+                <h4>Pseudocode</h4>
+                <p>4/5 - I like doing it. Makes me feel more confident in my code and helps me consolidate learning. Still don't feel like I'm particularly good at it but excited to do it more.</p>
+                    
+                <h4>Trying Something</h4>
+                <p>?/5 - This one is tricky to rate. It's just a necessity and is entirely based on the task. If you don't try something you'll never learn and see where you went wrong. I think that this one is just a general rule of life.</p>
+
+                <h4>Rubber Ducky Method</h4>
+                <p>1/5 - This one I don't feel so confident with. I can't say that I love the idea of talking to an inanimate object like a crazy person with a house full of people in lockdown, but really I just don't know what I'm talking about well enough to describe it to someone else. </p>
+
+                <h4>Reading Error Messages</h4>
+                <p>3/5 - This one is a hit or miss. Sometimes the error message make it obvious what is wrong and I can fix immediately, sometimes the error message feels vague and not very obvious. Very helpful and something that I will always check though. </p>
+
+                <h4>Console.logging</h4>
+                <p>2/5 - I actually haven't had a chance to try this myself yet, however the tests in the kata were extremely helpful. So this would probably be a higher score if I had made my own tests yet, but I haven't and so for now its a 2.<p>
+
+                <h4>Googling</h4>
+                <p>4/5 - This one is a hit or miss like reading the error messages. Sometimes you come across a miracle forum and it helps you with all of your problems, but more often theres a lot of periphary information that doesn't help so much and you often have to wade through a lot before you come to find something useful. It's also the process that I'm most familiar with.</p>
+
+                <h4>Asking your peers for help</h4>
+                <p>3.5/5 - This is getting better. Last week it felt difficult because I had hurt my back and was behind schedule, I had only just started Javascript and didn't feel like I knew what I was talking about. This week however I've seen some really good discussions on the foundations group and I'm feeling much better about my coding.</p>
+
+                <h4>Asking your coaches for help</h4>
+                <p>4/5 - This feels like the safest and most reliable option. Each time I've asked I've gotten awesome responses with explanations as to where I've gone wrong. Coaches, however, are temporary and I won't always have the option of having Ollie fix my code unfortunately, so I need to get better at the other problem solving methods before resorting to this.  </p>
+             
+                <h4>Improving your process with reflection.</h4>
+                <p>4/5 - This feels like the classic trope of creative inspiration. You never know if/when it will come, you just have to be ready for it. This was how I solved my dilemma as described earlier, it was a strangely surreal experience having my morning meditation fix my code but definitely not something to overlook.</p>
+
+            
+             </div>
+            
+             
+             
+             
+         </article>
+      </section>  
+    </body>
+</html>
